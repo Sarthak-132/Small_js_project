@@ -1,0 +1,33 @@
+:root{
+    --background-color:lightgrey;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    background-color: var(--background-color);
+    padding: 1rem;
+}
+
+/* .space-between{
+
+} */
+
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
